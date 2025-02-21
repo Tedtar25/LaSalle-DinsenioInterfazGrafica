@@ -1,0 +1,23 @@
+.centerElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+footer{
+    background-color: gray;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+ 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+main{
+    padding: 1rem;
+    flex: 1;
+}

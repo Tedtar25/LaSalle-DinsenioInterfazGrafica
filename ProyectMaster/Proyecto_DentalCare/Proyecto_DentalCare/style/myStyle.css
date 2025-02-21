@@ -1,0 +1,29 @@
+
+/* Estilos minimalistas */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+section {
+    padding: 50px 0;
+}
+.navbar {
+    background-color: #5a89d1 !important; /* Color de la barra de navegación */
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    color: white; /* Color de los enlaces en la barra de navegación */
+    transition: opacity 0.3s ease; /* Transición suave para el hover */
+}
+.navbar-nav .nav-link:hover {
+    opacity: 0.7; /* Efecto hover con opacidad */
+}
+footer {
+    padding: 20px 0; 
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* medida proporcional a los 4 lados 20px / si tenemos dos medidas es a el eje de x y el otro al eje y 0
+padding: 20px 0; */

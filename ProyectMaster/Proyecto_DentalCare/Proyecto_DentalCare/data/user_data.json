@@ -1,0 +1,82 @@
+[
+    {
+      "idPersona": 1,
+      "nombrePersona": "Juan Carlos",
+      "apellidos": "López Martínez",
+      "domicilio": "Av. Hidalgo 123, León, Gto.",
+      "usuario": "jclopez",
+      "contrasenia": "password123"
+    },
+    {
+      "idPersona": 2,
+      "nombrePersona": "María Fernanda",
+      "apellidos": "Gómez Pérez",
+      "domicilio": "Calle Morelos 456, León, Gto.",
+      "usuario": "mfgomez",
+      "contrasenia": "password456"
+    },
+    {
+      "idPersona": 3,
+      "nombrePersona": "Luis Alberto",
+      "apellidos": "Ramírez Chávez",
+      "domicilio": "Blvd. Aeropuerto 789, León, Gto.",
+      "usuario": "laramirez",
+      "contrasenia": "password789"
+    },
+    {
+      "idPersona": 4,
+      "nombrePersona": "Ana Sofía",
+      "apellidos": "Hernández López",
+      "domicilio": "Calle Juárez 101, León, Gto.",
+      "usuario": "ashernandez",
+      "contrasenia": "password101"
+    },
+    {
+      "idPersona": 5,
+      "nombrePersona": "Carlos Eduardo",
+      "apellidos": "Vargas García",
+      "domicilio": "Av. Torres Landa 102, León, Gto.",
+      "usuario": "cevargas",
+      "contrasenia": "password102"
+    },
+    {
+      "idPersona": 6,
+      "nombrePersona": "Gabriela",
+      "apellidos": "Mendoza Ríos",
+      "domicilio": "Calle Insurgentes 203, León, Gto.",
+      "usuario": "gmendoza",
+      "contrasenia": "password203"
+    },
+    {
+      "idPersona": 7,
+      "nombrePersona": "Alejandro",
+      "apellidos": "Castro Hernández",
+      "domicilio": "Calle Independencia 304, León, Gto.",
+      "usuario": "acastro",
+      "contrasenia": "password304"
+    },
+    {
+      "idPersona": 8,
+      "nombrePersona": "Valeria",
+      "apellidos": "Flores Martínez",
+      "domicilio": "Calle Allende 405, León, Gto.",
+      "usuario": "vflores",
+      "contrasenia": "password405"
+    },
+    {
+      "idPersona": 9,
+      "nombrePersona": "Jorge Luis",
+      "apellidos": "Rodríguez Soto",
+      "domicilio": "Blvd. Delta 506, León, Gto.",
+      "usuario": "jlrodriguez",
+      "contrasenia": "password506"
+    },
+    {
+      "idPersona": 10,
+      "nombrePersona": "Andrea",
+      "apellidos": "Salas Muñoz",
+      "domicilio": "Calle Reforma 607, León, Gto.",
+      "usuario": "asalas",
+      "contrasenia": "password607"
+    }
+  ]
