@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cesar Carrillo" />
+    <meta name="date" content="2024-10-14" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./styles/myStyle.css">
+    <link rel="stylesheet" href="./styles/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!--INICIA EL HEADER-->
+    <header>
+        <h1>Bienvenido al calculador de IMC</h1>
+    </header>
+
+    <!--INICIA EL MAIN-->
+    <main>
+        <div class="row centerElement">
+            <div class="card" style="width: 18rem">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15rem"
+                height="15rem"
+                fill="currentColor"
+                class="bi bi-bluetooth card-img-top"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="m8.543 3.948 1.316 1.316L8.543 6.58zm0 8.104 1.316-1.316L8.543 9.42zm-1.41-4.043L4.275 5.133l.827-.827L7.377 6.58V1.128l4.137 4.136L8.787 8.01l2.745 2.745-4.136 4.137V9.42l-2.294 2.274-.827-.827zM7.903 16c3.498 0 5.904-1.655 5.904-8.01 0-6.335-2.406-7.99-5.903-7.99S2 1.655 2 8.01C2 14.344 4.407 16 7.904 16Z"
+                />
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Calculador de IMC</h5>
+                <form>
+                    <!-- Campo Nombre -->
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" ><br><br>
+            
+                    <!-- Campo Edad -->
+                    <label for="edad">Edad:</label><br>
+                    <input type="text" id="edad" name="edad" placeholder="Ingresa tu edad" ><br><br>
+            
+                    <!-- Campo Peso -->
+                    <label for="peso">Peso (kg):</label><br>
+                    <input type="number" id="peso" name="peso" placeholder="Ingresa tu peso" ><br><br>
+            
+                    <!-- Campo Altura -->
+                    <label for="altura">Altura (cm):</label><br>
+                    <input type="number" id="altura" name="altura" placeholder="Ingresa tu altura"><br><br>
+            
+                    <!-- Botón Calcular -->
+                    <button class="btn btn-success" onclick="mostrarPeso()">Calcular</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <!--INICIA EL FOOTER-->
+    <footer class="footer mt-auto">
+        <h3>No informamos que tan gordo es a las autoridades pertinentes</h3>
+    </footer>
+    <script src="./JS/indexScript.js"></script>
+    <script src="./styles/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
